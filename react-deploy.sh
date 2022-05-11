@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+echo "Deploying React App...."
 npm install
 npm run build
 cp -rf build/ $HOME
