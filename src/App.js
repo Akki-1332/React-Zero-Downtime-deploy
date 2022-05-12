@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
 	  First Line of my Basic React App. <br/>
-		  -- Aakash
+		  -- Aakash Choudhary
         </p>
         <a
           className="App-link"
