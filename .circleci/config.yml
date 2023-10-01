@@ -17,6 +17,11 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+  runner-test:
+    machine: true
+    resource_class: ongraph/linux-rhel
+    steps:
+      - run: echo "Hi I'm on Runners!"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
